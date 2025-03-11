@@ -1,0 +1,28 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+@font-face {
+    font-family: Arapey;
+    src: url(./fonts/arapey/arapey-regular.ttf);
+}
+@font-face {
+    font-family: Tan Pearl;
+    src: url(./fonts/tan-pearl-font/tan-pearl.otf);
+}
+
+* {
+    box-sizing: border-box;
+    text-shadow: 0 0 5px black;
+}
+
+@theme {
+    --color-white: #ffffff ;
+    --color-black: #111111 ;
+    --color-gray: #d9d9d9;
+    --font-highlight: Tan Pearl,  serif;
+    --font-base: Arapey, serif;
+  }
+
+  ::selection {
+	background-color: var(--color-black);
+    color: var(--color-white);
+}
