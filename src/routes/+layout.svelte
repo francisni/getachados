@@ -12,7 +12,7 @@
 		</a>
 		<p class="bg-white text-center" >Produtos internacionais com as menores taxas</p>
 		<a href="/id-finder/#top" class="bg-gray px-10 py-5 rounded-xl underline animate-pulse text-center">
-			Encontrar produtos por id
+			Encontre produtos por id
 		</a>
 		<div class="w-full flex justify-center gap-5 items-center">
 			<div class="w-40 h-[2px] bg-gray"></div>
